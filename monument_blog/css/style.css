@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: "raleway", sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	letter-spacing: .02cm;
+	color: #44545E;
+	text-transform: uppercase;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+a{
+	color: inherit;
+}
+header{
+	text-align: center;
+	margin: 50px;
+}
+nav a{
+	font-size: 16px;
+	color: #7B98AA;
+	margin: 30px 0px 30px 150px;
+	text-align: right;
+}
+h1{
+	font-size: 37px;
+	font-weight: 600;
+	text-decoration: none;
+	letter-spacing: .7cm;
+	color: white;
+}
+article p{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+article h2{
+	font-size: 23px;
+	text-align: left;
+	font-weight: lighter;
+	margin-bottom: 50px;
+}
+h3{
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+article{
+	margin: 30px 100px 30px 100px;
+}
+article, aside p{
+	font: "lato";
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: none;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+footer{
+	background-color: #CDF3F6;
+	padding: 30px;
+	margin-left: 10px;
+	margin-right: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+footer p{
+	font: "Lato";
+	font-weight: 400;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
+footer a{
+	margin: 15px;
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+}
+footer p a{
+	font-weight: bolder;
+	text-transform: none;
+	font-size: 15px;
+}
+hr{
+	margin: 20px;
+	border: 1px solid;
+}
+aside{
+	margin: 80px 100px 30px 100px;
+}
+aside ul{
+	font-size: 15px;
+	font-weight: 400;
+	text-align:left;
+	color: #7B98AA;
+	text-transform: none;
+	text-decoration: none;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+li{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.wp-caption {
+position: relative;
+padding: 0;
+margin: 0;
+}
+.wp-caption img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+.wp-caption:after {
+content: "";
+position: absolute;
+display: block;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+z-index: 1;
+}
+.wp-caption-text {
+display: block;
+position: absolute;
+width: 100%;
+color: #fff;
+left: 0;
+bottom: 0;
+padding: 1em;
+font-weight: 700;
+z-index: 2;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
