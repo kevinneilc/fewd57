@@ -1,0 +1,205 @@
+/* ----------------------------------------
+------------------------------------------- */
+body{
+	font-family: "raleway", sans-serif;
+	font-weight: 600;
+	text-align: center;
+	color: #44345E;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+}
+h2, h3{
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+h1{
+	margin-bottom: 20px;
+	letter-spacing: 20px;
+}
+a{
+	color: #7B98AA;
+	text-decoration: none;
+}
+p{
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: none;
+	margin: 40px;
+	color: #7B98AA;
+}
+img{
+	max-width: 100%;
+}
+nav a{
+	display: inline-block;
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 50px;
+	font-size: 14px;
+}
+nav{
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-bottom: 30px;
+}
+header{
+	background-image: url('../images/home_header_bg.jpg');
+	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header h1{
+	color: white;
+	font-size: 37px;
+	text-align: center;
+}
+header h2{
+	color: white;
+	font-size: 23px;
+	text-align: center;
+}
+article a{
+	border: 1px solid black;
+	font-family: "raleway" sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	padding: 5px 20px 5px 20px;
+	margin-top: 20px;
+}
+.issue{
+	margin-top: 30px;
+	display: flex;
+	text-align: center;
+	align-items: stretch;
+	margin-bottom: 75px;
+}
+.twenty{
+	display: flex;
+}
+.about{
+	margin-top: 50px;
+	margin-bottom: 80px;
+	padding: 80px;
+	background-color: #C8F0F4;
+	text-align: center;
+}
+.about p{
+	margin-left: 250px;
+	margin-right: 250px;
+	align-items: center;
+}
+.cactus img{
+	opacity: .5;
+}
+.cactus img:hover{
+	opacity: 1;
+}
+
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer{
+	background-color: #CDF3F6;
+	padding: 8px;
+	margin-left: 10px;
+	margin-right: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+footer p{
+	font: "Lato";
+	font-weight: 400;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
+footer a{
+	margin: 20px;
+	font-size: 28px;
+	text-decoration: none;
+	text-align: center;
+}
+footer p a{
+	font-weight: bolder;
+	text-transform: none;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+hr{
+	margin: 3px;
+	border: .5px solid;
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+input{
+	padding: 15px 20px 15px 20px;
+	height: 30px;
+	text-align: center;
+	background-color: white;
+	font-weight: bold;
+	font-size: 10px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+#keep{
+	border: 2px solid black;
+	padding: 8px 20px 5px 20px;
+	font-weight: bold;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
