@@ -1,0 +1,113 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+body{
+ font-family: 'raleway', sans-serif;
+ color: black;
+ letter-spacing: 2px;
+ -webkit-font-smoothing: antialiased;
+}
+h1{
+  font-family: 'playfair display', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  margin-left: 30px;
+  color: black;
+}
+header{
+  margin-bottom: 80px;
+}
+nav a{
+  margin-top: 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+nav{
+  text-align: center;
+}
+input{
+  margin-right: 10px;
+}
+a{
+  text-decoration: none;
+}
+.social{
+  display: flex;
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 10px;
+  align-items: center;
+}
+.icon{
+  font-size: 35px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
+.quote{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  text-align: center;
+  font: 10px;
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: white;
+  color: black;
+  z-index: 3;
+}
+#rice{
+  font-size: 15px;
+  font-weight: 700;
+}
+.img{
+  background-image: url('../img/pepper.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.owner{
+ text-align: center;
+}
+.chef{
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+.pics{
+  text-align: center;
+}
+.start{
+  text-align: center;
+}
+.main{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: baseline;
+}
+footer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+footer a{
+  margin-left: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
