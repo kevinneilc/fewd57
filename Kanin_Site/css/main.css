@@ -14,31 +14,36 @@ img {
 
 body{
  font-family: 'raleway', sans-serif;
- color: black;
+ color: white;
  letter-spacing: 2px;
  -webkit-font-smoothing: antialiased;
+ background-color: #1e1e1e;
 }
 h1{
-  font-family: 'playfair display', sans-serif;
+  font-family: 'Bitter', sans-serif;
   font-weight: 700;
   font-size: 70px;
   margin-left: 30px;
-  color: black;
+  text-align: center;
+}
+h2{
+  font-family: 'bitter', sans-serif;
 }
 header{
   margin-bottom: 80px;
 }
 nav a{
-  margin-top: 20px;
-  display: inline-block;
-  margin-bottom: 30px;
   text-transform: uppercase;
   font-weight: bold;
   margin-left: 30px;
   margin-right: 50px;
+  font-weight: bold;
+  color: white;
 }
 nav{
-  text-align: center;
+  display: inline-block;
+  position: fixed;
+  background-color: #1e1e1e;
 }
 input{
   margin-right: 10px;
@@ -47,7 +52,6 @@ a{
   text-decoration: none;
 }
 .social{
-  display: flex;
   text-align: right;
   margin-top: 15px;
   margin-right: 10px;
@@ -65,11 +69,7 @@ a{
   margin-bottom: 200px;
   text-align: center;
   font: 10px;
-  padding: 10px;
-  padding-right: 50px;
-  padding-left: 50px;
-  background-color: white;
-  color: black;
+  color: white;
   z-index: 3;
 }
 #rice{
@@ -77,9 +77,26 @@ a{
   font-weight: 700;
 }
 .img{
-  background-image: url('../img/pepper.jpg');
+  background-image: url('../img/adobo.jpg');
   background-size: cover;
   background-attachment: fixed;
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.story{
+  text-align: center;
+}
+.begin{
+  margin-left: 30px;
+}
+.family{
+  background-image: url('../img/riceman.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 30px;
 }
 .owner{
  text-align: center;
@@ -89,8 +106,21 @@ a{
   text-align: center;
   width: 100%;
 }
+.chef, .owner p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .pics{
   text-align: center;
+}
+.menu{
+  background-image: url('../img/sisig.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  opacity: .8;
 }
 .start{
   text-align: center;
@@ -100,14 +130,43 @@ a{
   text-align: center;
   justify-content: space-around;
   align-items: baseline;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-image: url('../img/bbq.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.dessert{
+  text-align: center;
+}
+.fam{
+  margin-top: 20px;
+}
+.side{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+input, textarea{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 3px solid black;
+  width: 80%;
 }
 footer{
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: white;
+  background-color: #1e1e1e;
 }
 footer a{
   margin-left: 30px;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
+  display: inline-block;
+  color: blue;
 }
