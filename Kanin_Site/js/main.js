@@ -1,7 +1,25 @@
 $('.hamburger-icon').on('click', function(event) {
+  event.preventDefault();
   $(this).toggleClass('active');
   $('nav').slideToggle();
-  event.preventDefault();
+
+});
+
+$('.foodOne').on('click', function() {
+  $('.start').slideToggle();
+});
+
+$('.foodTwo').on('click', function() {
+  $('.mainTwo').slideToggle();
+});
+
+
+$('.foodThree').on('click', function(){
+  $('.main').slideToggle();
+});
+
+$('.foodFour').on('click', function() {
+  $('.dessert').slideToggle();
 });
 
 
@@ -21,7 +39,7 @@ if (distanceScrolled >= 574){
     $('.family').slideUp();
 }
 
-if (distanceScrolled >= 1835){
+if (distanceScrolled >= 1641){
   $('.menu').slideDown();
 } else {
     $('.menu').slideUp();
